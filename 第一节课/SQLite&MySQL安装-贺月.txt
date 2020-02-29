@@ -1,0 +1,17 @@
+SQLite
+1.进入SQLite官网下载页面，选择下载Precompiled Binaries for Windows下的sqlite-dll-win32-x86-3310100.zip
+和sqlite-tools-win32-x86-3310100.zip两个文件。
+2.将上述两个文件解压至C:\sqlite。
+3.打开高级系统设置，添加C:\sqlite至环境变量-系统变量-Path。
+4.用cmd打开sqlite3，配置完成。
+5.在D盘目录下创建demo.db并用sqlite3打开。
+6.创建一个book数据库，一个books表，字段为id[intager],name[varchar(10)]。
+参考：https://www.runoob.com/sqlite/sqlite-installation.html
+https://blog.csdn.net/qq_16093323/article/details/88226397
+
+MySQL
+1.进入MySQL官网Windows版本下载页面，下载Windows (x86, 32-bit), MSI Installer。
+2.运行下载好的安装包，按照提示下载其它所需文件。
+3.配置MySQL环境变量。新建用户变量MYSQL_HOME，在变量值中输入安装目录C:\Program Files\MySQL\MySQL Server 8.0；将C:\Program Files\MySQL\MySQL Server 8.0\bin添加到Path。
+4.打开cmd输入mysql -uroot -p，输入密码，配置完成。
+参考：https://www.runoob.com/mysql/mysql-install.html
